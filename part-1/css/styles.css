@@ -29,20 +29,71 @@ body {
 
 .red {
   background-color: pink;
+  position: absolute;
+  top: 50px;
+  right: 100px;
 }
 
 .green {
   background-color: lightgreen;
+  position: absolute;
+  bottom: 50px;
+  right: 50%;
 }
 
 .blue {
   background-color: lightblue;
+  position: relative;
+  top: 50px;
+  left: 200px;
+  z-index: 100;
 }
 
 .orange {
   background-color: orange;
+  top: 75%;
+  left: 25%;
+  position: absolute;
 }
 
 .yellow {
   background-color: yellow;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
+
+.container {
+    position: relative;
+}
+
+/*.box.blue {
+    position: relative;
+    top: 50px;
+    left: 200px;
+    z-index: 100;
+}*/
+
+/*.box.red {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}*/
+
+/*.box.green {
+    position: absolute;
+    bottom: 50px;
+    right: 50%;
+}*/
+
+/*.box.orange {
+    top: 75%;
+    left: 25%;
+    position: absolute;
+}*/
+
+/*.box.yellow {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}*/
